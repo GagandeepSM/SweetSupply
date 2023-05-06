@@ -1,0 +1,53 @@
+{% extends 'sweets/base.html' %}
+
+
+{% block content %}
+
+<div class="columns">
+  <div class="column is-2 box">
+    <aside class="menu">
+      <p class="menu-label">
+        General
+      </p>
+      <ul class="menu-list">
+        <li><a>Dashboard | Offers</a></li>
+        <li><a>Products</a></li>
+      </ul>
+      <p class="menu-label">
+        Categories
+      </p>
+      <ul class="menu-list">
+        <li><a>Drinks</a></li>
+        <li>
+          <a class="is-active">Sweets</a>
+          <ul>
+            <li><a>Kaju Katli</a></li>
+            <li><a>Milk Cake</a></li>
+            <li><a>Laddoo's</a></li>
+          </ul>
+        </li>
+        <li><a>Bakery</a></li>
+        <li><a>Namkeen</a></li>
+        <li><a>Gift Hampers</a></li>
+      </ul>
+      <p class="menu-label">
+        Transactions
+      </p>
+      <ul class="menu-list">
+        <li><a>Payments</a></li>
+        <li><a>Transfers</a></li>
+        <li><a>Balance</a></li>
+      </ul>
+    </aside>  </div> 
+
+  <div class="column">
+    <div class="container">
+      <div class="notification is-primary">
+        Shop for  <strong>$300</strong> and get $50 off on check out.
+      </div>
+    </div>   
+  </div>
+ 
+</div>
+
+{% endblock content %}
